@@ -23,7 +23,7 @@
     "ifuckuptool": "^4.0.2",
     "json2csv": "^3.11.5",
     "plist": "^2.1.0",
-    "sqlite3": "5.0.0",
+    "sqlite3": "^5.1.2",
     "stat-mode": "^1.0.0",
     "strip-ansi": "^4.0.0"
   },
@@ -33,6 +33,6 @@
     "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-standard": "^3.1.0",
-    "tap": "^14.10.8"
+    "tap": "^14.11.0"
   }
 }
