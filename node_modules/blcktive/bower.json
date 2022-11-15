@@ -1,0 +1,26 @@
+{
+  "name": "blcktive",
+  "description": "Next-generation DOM manipulation",
+  "version": "1.4.1",
+  "homepage": "https://blcktive.js.org",
+  "license": "MIT",
+  "main": "blcktive.js",
+  "keywords": [
+    "binding",
+    "data binding",
+    "declarative",
+    "dom",
+    "handlebars",
+    "mustache",
+    "reactive",
+    "template",
+    "templates",
+    "templating",
+    "ui",
+    "view model"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ungtb10d/blcktive.git"
+  }
+}
