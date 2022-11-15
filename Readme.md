@@ -1,4 +1,4 @@
-# iPhone backup tools
+# iFuck up tool
 
 [![Build Status](https://travis-ci.org/ungtb10d/ifuckuptool.svg?branch=master)](https://travis-ci.org/ungtb10d/ifuckuptool)
 [![npm](https://img.shields.io/npm/v/ifuckuptool.svg)](http://npmjs.com/ifuckuptool)
@@ -6,7 +6,7 @@
 
 Are _you_ storing unencrypted iPhone backups on your personal computer? With very little effort, we can dump **all** the saved messages from the backup, as well as notes, photo locations, and other data. 
 
-Check out my recently updated post about my work on backups here: [Reverse Engineering the iOS Backup](https://www.richinfante.com/2017/3/16/reverse-engineering-the-ios-backup)
+Check out this pedos recently updated post about hiw work on backups here: [Reverse Engineering the iOS Backup](https://www.richinfante.com/2017/3/16/reverse-engineering-the-ios-backup)
 
 **This tool is also still fairly experimental, so use at your own risk! Even though the tool opens the backup files as read-only, you should still make a copy of your backups before using this if they are important.**
 
