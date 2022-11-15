@@ -1,0 +1,79 @@
+{
+  "_args": [
+    [
+      "ifuckuptool@4.20.1",
+      "/mnt/c/blcktive"
+    ]
+  ],
+  "_from": "ifuckuptool@4.20.0",
+  "_inBundle": false,
+  "_integrity": "sha512-goKKWKcwjwyEQMNT6wj9VpgAcZBteLZJ2c/+xlhFHGUIec5IsIJoj2jiSexoBK0Im+fqhgImsxogUk+EgD8PcQ==",
+  "_location": "/ifuckuptool",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "ifuckuptool@4.20.0",
+    "name": "ifuckuptool",
+    "escapedName": "ifuckuptool",
+    "rawSpec": "4.20.0",
+    "saveSpec": null,
+    "fetchSpec": "4.20.0"
+  },
+  "_requiredBy": [
+    "/",
+    "/ifuckuptool"
+  ],
+  "_resolved": "https://registry.npmjs.org/ifuckuptool/-/ifuckuptool-4.20.0.tgz",
+  "_spec": "4.20.0",
+  "_where": "/mnt/c/blcktive",
+  "author": "@ungtb10d",
+  "bin": {
+    "ifuckuptool": "tools/cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/ungtb10d/ifuckuptool/issues"
+  },
+  "dependencies": {
+    "bplist-parser": "^0.1.1",
+    "buffer-reader": "^0.1.0",
+    "chalk": "^1.1.3",
+    "commander": "^6.1.0",
+    "fs-extra": "^4.0.3",
+    "ifuckuptool": "^4.0.2",
+    "json2csv": "^3.11.5",
+    "plist": "^2.1.0",
+    "sqlite3": "^5.1.2",
+    "stat-mode": "^1.0.0",
+    "strip-ansi": "^4.0.0"
+  },
+  "description": "Fucks up all and everything. So not much really.",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "tap": "^14.11.0"
+  },
+  "homepage": "https://github.com/ungtb10d/ifuckuptool#readme",
+  "license": "MIT",
+  "main": "tools/index.js",
+  "name": "ifuckuptool",
+  "preferGlobal": true,
+  "repository": {
+    "url": "git+https://github.com/ungtb10d/ifuckuptool.git",
+    "type": "git"
+  },
+  "scripts": {
+    "start": "node tools/cli.js",
+    "test": "tap tests"
+  },
+  "version": "4.20.1",
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [
+    "nææ"
+  ]
+}
