@@ -8,7 +8,7 @@ module.exports = {
   /**
    * Report name. This should match the nesting found in the reports.js file.
    */
-  name: 'ibackuptool.example',
+  name: 'ifuckuptool.example',
 
   /**
    * Human readable description of the file

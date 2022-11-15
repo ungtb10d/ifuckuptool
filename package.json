@@ -1,5 +1,5 @@
 {
-  "name": "ibackuptool",
+  "name": "ifuckuptool",
   "version": "4.0.1",
   "description": "Read Messages and info from iOS Backups",
   "main": "tools/index.js",
@@ -8,10 +8,10 @@
     "start": "node tools/cli.js"
   },
   "bin": {
-    "ibackuptool": "tools/cli.js"
+    "ifuckuptool": "tools/cli.js"
   },
   "preferGlobal": true,
-  "repository": "https://github.com/richinfante/iphonebackuptools",
+  "repository": "https://github.com/ungtb10d/ifuckuptool",
   "author": "@richinfante",
   "license": "MIT",
   "dependencies": {

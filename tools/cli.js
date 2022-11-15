@@ -49,14 +49,14 @@ program.on('--help', function () {
   console.log('')
   console.log(`Version: ${packageJSON.version}`)
   console.log('')
-  console.log('Run ibackuptool --available for a listing of report types.')
+  console.log('Run ifuckuptool --available for a listing of report types.')
 
   console.log('')
   console.log("If you're interested to know how this works, check out my post:")
   console.log('https://www.richinfante.com/2017/3/16/reverse-engineering-the-ios-backup')
   console.log('')
   console.log('Issue tracker:')
-  console.log('https://github.com/richinfante/iphonebackuptools/issues')
+  console.log('https://github.com/ungtb10d/ifuckuptool/issues')
   console.log('')
 })
 

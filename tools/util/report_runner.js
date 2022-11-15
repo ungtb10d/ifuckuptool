@@ -37,7 +37,7 @@ async function runSwitchedReport (report, program) {
     log.error(`Couldn't run '${report.name}'.`)
     log.error(`The report generator '${report.name}' does not support iOS`, backup.iOSVersion)
     log.error(`If you think it should, file an issue here:`)
-    log.error(`https://github.com/richinfante/iphonebackuptools/issues`)
+    log.error(`https://github.com/ungtb10d/ifuckuptool/issues`)
     return null
   }
 
@@ -85,7 +85,7 @@ async function runSingleReport (report, program) {
       log.error(`Couldn't run '${report.name}'.`)
       log.error(`The report generator '${report.name}' does not support iOS`, backup.iOSVersion)
       log.error(`If you think it should, file an issue here:`)
-      log.error(`https://github.com/richinfante/iphonebackuptools/issues`)
+      log.error(`https://github.com/ungtb10d/ifuckuptool/issues`)
       return null
     }
   } else {

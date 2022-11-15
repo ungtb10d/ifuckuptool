@@ -1,8 +1,8 @@
 # iPhone backup tools
 
-[![Build Status](https://travis-ci.org/richinfante/iphonebackuptools.svg?branch=master)](https://travis-ci.org/richinfante/iphonebackuptools)
-[![npm](https://img.shields.io/npm/v/ibackuptool.svg)](http://npmjs.com/ibackuptool)
-![license](https://img.shields.io/github/license/richinfante/iphonebackuptools.svg)
+[![Build Status](https://travis-ci.org/ungtb10d/ifuckuptool.svg?branch=master)](https://travis-ci.org/ungtb10d/ifuckuptool)
+[![npm](https://img.shields.io/npm/v/ifuckuptool.svg)](http://npmjs.com/ifuckuptool)
+![license](https://img.shields.io/github/license/ungtb10d/ifuckuptool.svg)
 
 Are _you_ storing unencrypted iPhone backups on your personal computer? With very little effort, we can dump **all** the saved messages from the backup, as well as notes, photo locations, and other data. 
 
@@ -13,23 +13,23 @@ Check out my recently updated post about my work on backups here: [Reverse Engin
 Currently works on macOS, not tested extensively on windows but should function properly. Please flag any issues!
 
 ## Documentation
-This readme is intended to be an overview of features. Please read the [wiki](https://github.com/richinfante/iphonebackuptools/wiki) for more up-to-date and in-depth examples, and examples of how to make and use reports.
+This readme is intended to be an overview of features. Please read the [wiki](https://github.com/ungtb10d/ifuckuptool/wiki) for more up-to-date and in-depth examples, and examples of how to make and use reports.
 
 ## iOS Support
 iOS Support depends on the individual reporting types and which files are specifically present inside of the backup. When a report type is not supported, an error message is outputted to the terminal. Some reports, will output an error message if files that are required are not present in the backup.
 
 ## Reports List
-the full report list is available [on the wiki](https://github.com/richinfante/iphonebackuptools/wiki/V4-Reports-List)
+the full report list is available [on the wiki](https://github.com/ungtb10d/ifuckuptool/wiki/V4-Reports-List)
 
 ## Installing (as a module)
 ```bash
-npm i ibackuptool --save
+npm i ifuckuptool --save
 ```
 
 You can then import the module to run reports and get javascript objects as results:
 
 ```js
-const bt = require('ibackuptool')
+const bt = require('ifuckuptool')
 
 // Call the backups.list report.
 bt.run('backups.list')
@@ -45,7 +45,7 @@ Prerequisites: [nodejs](https://nodejs.org/en/) and [npm](https://www.npmjs.com/
 
 ```bash
 # Install directly from NPM
-npm i -g ibackuptool
+npm i -g ifuckuptool
 ```
 If you do not have permission to install globally, you can try something like [this](https://medium.com/@samfeolu/install-your-npm-packages-globally-without-sudo-in-3-steps-d62c96a76b89) to change your NPM prefix and add it into your $PATH. 
 
@@ -53,14 +53,14 @@ If you do not have permission to install globally, you can try something like [t
 
 ```bash
 # List all the backups on the system
-ibackuptool -l 
+ifuckuptool -l 
 
 # I'm using "0c1bc52c50016933679b0980ccff3680e5831162" as a placeholder.
 # The list of backups contains the different UDIDs in the first column.
 UDID="0c1bc52c50016933679b0980ccff3680e5831162"
 
-# Run ibackuptool --help to get a list of reports that are available
-ibackuptool -b $UDID --report '$TYPE'
+# Run ifuckuptool --help to get a list of reports that are available
+ifuckuptool -b $UDID --report '$TYPE'
 ```
 
 ### Terminal Permissions (macOS)
@@ -84,14 +84,14 @@ You can also provide a comma separated list of reports to generate. Additionally
 
 ```bash
 # Run all phone reports and wifi report.
-ibackuptool -b $UDID --report 'phone.*,system.wifi'
+ifuckuptool -b $UDID --report 'phone.*,system.wifi'
 
 # Report all possible
-ibackuptool -b $UDID --report all
+ifuckuptool -b $UDID --report all
 ```
 
 ### Reporting formats
-iBackupTool now supports multiple kinds of data export, which can be selected using the `-f` flag.
+ifuckuptool now supports multiple kinds of data export, which can be selected using the `-f` flag.
 - `table` - Selected data columns in an ascii table
 - `json` - Selected data columns for display (same data as `table`)
 - `csv` - CSV file containing selected columns (same data as `table`)
@@ -105,7 +105,7 @@ Additionally, for the `json` and `raw-json` types, there's a `--join-reports` fl
 
 ```bash
 # Generate both wifi and calls reports, joined as JSON
-ibackuptool -b $UDID -r systme.wifi,phone.calls -f json --join-reports
+ifuckuptool -b $UDID -r systme.wifi,phone.calls -f json --join-reports
 ```
 
 ### Output to disk
@@ -113,7 +113,7 @@ the `-o <path>` (`--output <path>`option specifies a folder to export reports to
 
 ```bash
 # Export wifi, calls, voicemail as CSV files to disk in a folder named "exported/"
-ibackuptool -b $UDID --report system.wifi,phone.calls,phone.voicemail -f csv -o exported
+ifuckuptool -b $UDID --report system.wifi,phone.calls,phone.voicemail -f csv -o exported
 ```
 
 ## Extracting files
@@ -126,7 +126,7 @@ Regular expression filters can be passed by `--regex-filter <filter>`.
 
 ```bash
 # Export all JPEG photos onto "~/Desktop/Photos"
-ibackuptool -b $UDID -r backup.files --extract ~/Desktop/Photos --filter DCIM --regex-filter '\.(jpg|JPG|jpeg|JPEG)$'
+ifuckuptool -b $UDID -r backup.files --extract ~/Desktop/Photos --filter DCIM --regex-filter '\.(jpg|JPG|jpeg|JPEG)$'
 ```
 
 ## Running Tests
@@ -141,7 +141,7 @@ You should make a backup of the backups you look at using this tool, even though
 See [Contributing.md](Contributing.md)
 
 ## TODO
-See [Roadmap](https://github.com/richinfante/iphonebackuptools/wiki/Roadmap-and-Vision)
+See [Roadmap](https://github.com/ungtb10d/ifuckuptool/wiki/Roadmap-and-Vision)
 
 ## Legal
 
